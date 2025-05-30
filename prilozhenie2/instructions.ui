@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>instructions</class>
+ <widget class="QWidget" name="instructions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>841</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>92</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: #ffffff;
+	min-width:  90px;
+    max-width:  90px;
+    min-height: 20px;
+    max-height: 20px;
+    font: 900 14pt &quot;Segoe UI&quot;;
+	background-color: #000000;
+	border-radius:10px;
+	border: 1px solid #ccc;
+}
+ QPushButton:hover{
+	background-color:#676767;
+	
+}
+</string>
+   </property>
+   <property name="text">
+    <string>🠔</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow1</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resourses.qrc">
+    <normaloff>:/new/prefix1/image 7.png</normaloff>:/new/prefix1/image 7.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>190</y>
+      <width>372</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	color: #ffffff;
+	min-width:  368px;
+    max-width:  368px;
+    min-height: 35px;
+    max-height: 35px;
+    font: 900 14pt &quot;Segoe UI&quot;;
+	background-color: #000000;
+	border-radius:15px;
+	border: 1px solid #ccc;
+}
+ QPushButton:hover{
+	background-color:#676767;
+	
+}
+</string>
+       </property>
+       <property name="text">
+        <string>начать</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	color: #ffffff;
+	min-width:  368px;
+    max-width:  368px;
+    min-height: 35px;
+    max-height: 35px;
+	font: 900 14pt &quot;Segoe UI&quot;;
+	border-radius:15px;
+	background-color: #000000;
+	border: 1px solid #ccc;
+
+}
+ QPushButton:hover{
+	background-color:#676767;
+}</string>
+       </property>
+       <property name="text">
+        <string>инструкция</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>792</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resourses.qrc"/>
+ </resources>
+ <connections/>
+</ui>

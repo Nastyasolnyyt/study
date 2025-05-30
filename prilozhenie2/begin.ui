@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>begin</class>
+ <widget class="QWidget" name="begin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>841</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form2</string>
+  </property>
+  <widget class="QTextEdit" name="queryEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>821</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>70</y>
+     <width>211</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_on">
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	color: #ffffff;
+	min-width:  180px;
+    max-width:  180px;
+    min-height: 35px;
+    max-height: 35px;
+    font: 900 12pt &quot;Segoe UI&quot;;
+	background-color: #000000;
+	border-radius:15px;
+	border: 1px solid #ccc;
+}
+ QPushButton:hover{
+	background-color:#676767;
+	
+}
+</string>
+      </property>
+      <property name="text">
+       <string>подключиться</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_do">
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	color: #ffffff;
+	min-width:  180px;
+    max-width:  180px;
+    min-height: 35px;
+    max-height: 35px;
+    font: 900 12pt &quot;Segoe UI&quot;;
+	background-color: #000000;
+	border-radius:15px;
+	border: 1px solid #ccc;
+}
+ QPushButton:hover{
+	background-color:#676767;
+	
+}
+</string>
+      </property>
+      <property name="text">
+       <string>выполнить запрос</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="backup">
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	color: #ffffff;
+	min-width:  180px;
+    max-width:  180px;
+    min-height: 35px;
+    max-height: 35px;
+    font: 900 12pt &quot;Segoe UI&quot;;
+	background-color: #000000;
+	border-radius:15px;
+	border: 1px solid #ccc;
+}
+ QPushButton:hover{
+	background-color:#676767;
+	
+}
+</string>
+      </property>
+      <property name="text">
+       <string>скачать</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>181</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLineEdit" name="databaseEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="usernameEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="passwordEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>821</width>
+     <height>241</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>70</y>
+     <width>231</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>название базы данных</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>имя пользователя</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>пароль</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>92</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;назад&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: #ffffff;
+	min-width:  90px;
+    max-width:  90px;
+    min-height: 20px;
+    max-height: 20px;
+    font: 900 14pt &quot;Segoe UI&quot;;
+	background-color: #000000;
+	border-radius:10px;
+	border: 1px solid #ccc;
+}
+ QPushButton:hover{
+	background-color:#676767;
+	
+}
+</string>
+   </property>
+   <property name="text">
+    <string>🠔</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

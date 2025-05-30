@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Lilita One Regular.ttf</file>
+        <file>Frame 5 (3).png</file>
+        <file>image 7.png</file>
+        <file>Rectangle 2.png</file>
+        <file>Frame 7 (7).png</file>
+    </qresource>
+</RCC>
