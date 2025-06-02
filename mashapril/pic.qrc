@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix2">
+        <file>Frame 24.png</file>
+        <file>mbr photos, images, assets 2.png</file>
+        <file>strelochlka.png</file>
+        <file>Frame 25.png</file>
+    </qresource>
+</RCC>

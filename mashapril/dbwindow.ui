@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dbwindow</class>
+ <widget class="QWidget" name="dbwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1190</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>390</y>
+     <width>631</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="queryEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>300</y>
+     <width>381</width>
+     <height>75</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>201</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="databaseEdit">
+      <property name="styleSheet">
+       <string notr="true">QTextEdit {
+    color: #ffffff;               /* Цвет текста */
+    background-color: #000000;    /* Цвет фона */
+    border: 2px solid #555555;    /* Граница */
+    border-radius: 15px;          /* Закругление углов */
+    padding: 5px;                 /* Отступ внутри */
+    font: 900 12pt &quot;Segoe UI&quot;;    /* Шрифт (жирный, размер, семейство) */
+    min-width: 180px;             /* Минимальная ширина */
+    min-height: 35px;             /* Минимальная высота */
+    selection-color: #ff0000;     /* Цвет выделенного текста */
+    selection-background-color: #00ff00; /* Фон выделенного текста */
+}
+
+/* Стиль при наведении */
+QTextEdit:hover {
+    border: 2px solid #888888;
+}
+
+/* Стиль при фокусе */
+QTextEdit:focus {
+    border: 2px solid #0078d7;
+}
+
+/* Стиль для отключенного состояния */
+QTextEdit:disabled {
+    color: #aaaaaa;
+    background-color: #333333;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="usernameEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="passwordEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>10</y>
+     <width>93</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>🠔</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>210</y>
+     <width>371</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_do">
+      <property name="text">
+       <string>выполнить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="backup">
+      <property name="text">
+       <string>скачать</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_on">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>250</y>
+     <width>181</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>подключить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>660</width>
+     <height>660</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Frame 25 (1).png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>tableView</zorder>
+  <zorder>queryEdit</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>backButton</zorder>
+  <zorder>horizontalLayoutWidget</zorder>
+  <zorder>pushButton_on</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
